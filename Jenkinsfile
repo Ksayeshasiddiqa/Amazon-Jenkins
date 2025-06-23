@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Main Branch') {
+        stage('branch-a Branch') {
             steps {
                 echo 'Running pipeline from branch-a branch '
             }
