@@ -5,6 +5,11 @@ pipeline {
         PATH = "/usr/bin:/bin:/opt/homebrew/bin"
     }
     stages {
+        stage('Main Branch') {
+            steps {
+                echo 'Running pipeline from main branch'
+            }
+        }
 
         stage('pull') {
             steps {
