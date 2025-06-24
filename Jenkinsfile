@@ -8,7 +8,7 @@ pipeline {
         stage('Main Branch') {
             steps {
                 echo 'Running pipeline from main branch'
-                echo 'changes added on 24 june 2025.'
+                echo 'changes added on 24 june 2025'
             }
         }
 
